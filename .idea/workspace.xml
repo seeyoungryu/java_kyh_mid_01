@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1100e9d0-bcdb-4255-b895-81d3a0f6e02a" name="Changes" comment="" />
+    <list default="true" id="1100e9d0-bcdb-4255-b895-81d3a0f6e02a" name="Changes" comment="add src" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2iAzUVjaq00BYNCLvagwFP4AOCj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,11 +52,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718948185768</updated>
-      <workItem from="1718948187301" duration="447000" />
+      <workItem from="1718948187301" duration="793000" />
     </task>
+    <task id="LOCAL-00001" summary="delete src">
+      <created>1718948705849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718948705849</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add src">
+      <created>1718948798455</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718948798455</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete src" />
+    <MESSAGE value="add src" />
+    <option name="LAST_COMMIT_MESSAGE" value="add src" />
   </component>
 </project>
