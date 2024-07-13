@@ -5,7 +5,7 @@ public class ToStringMain2 {
     public static void main(String[] args) {
         Car car = new Car("Model Y");
         Dog dog1 = new Dog("멍멍이1", 2);
-        Dog dog2 = new Dog("멍멍이2", 5);
+        Dog dog2 = new Dog("멍멍이2", 5);   //객체 생성 및 초기화
 
         System.out.println("1. 단순 toString 호출");
         System.out.println(car.toString());
@@ -22,7 +22,8 @@ public class ToStringMain2 {
         ObjectPrinter.print(dog1);
         ObjectPrinter.print(dog2);
 
-        String refValue = Integer.toHexString(System.identityHashCode(dog1));
+        String refValue = Integer.toHexString(System.identityHashCode(dog1)); //객체의 시스템 아이덷티티 해시 코드를 반환함
+
         System.out.println("refValue = " + refValue);
     }
 }

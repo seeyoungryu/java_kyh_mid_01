@@ -1,7 +1,7 @@
 package lang.object.tostring;
 
 public class ObjectPrinter {
-    public static void print(Object obj) {
+    public static void print(Object obj) {                    //매개변수로 Object 타입 obj 객체를 받는 메서드이므로 car, dog 등 객체 다 받을 수 있음
         String string = "객체 정보 출력: " + obj.toString();
         System.out.println(string);
     }
