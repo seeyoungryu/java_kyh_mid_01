@@ -2,6 +2,8 @@ package lang.object.tostring;
 
 public class ToStringMain2 {
 
+    //객체 정보 사용 예시
+
     public static void main(String[] args) {
         Car car = new Car("Model Y");
         Dog dog1 = new Dog("멍멍이1", 2);
