@@ -14,3 +14,6 @@ public class RefMain1_2 {
         System.out.println("b = " + b);
     }
 }
+
+/* 여러 변수가 하나의 객체를 공유하지 않도록 해서 사이드 이펙트 방지 */
+

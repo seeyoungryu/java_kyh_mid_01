@@ -24,6 +24,6 @@ public class RefMain1_1 {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        // -> bd의 주소만 부산으로 변경했는데, a의 주소도 함께 부산으로 변경됨
+        // -> bd의 주소만 부산으로 변경했는데, a의 주소도 함께 부산으로 변경됨 (cf. 사이드 이펙트)
     }
 }
