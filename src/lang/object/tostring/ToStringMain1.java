@@ -10,7 +10,7 @@ public class ToStringMain1 {
         System.out.println(string);
 
         //object 직접 출력
-        System.out.println(object);
+        System.out.println(object); //내부적으로 toString 자동 호출 (= object.toString();)
     }
 
 }

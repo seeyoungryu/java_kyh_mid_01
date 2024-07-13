@@ -13,7 +13,7 @@ public class ToStringMain2 {
         System.out.println(dog2.toString());
 
         System.out.println("2. println 내부에서 toString 호출");
-        System.out.println(car);
+        System.out.println(car);   // car.toString() 생략시 -> println 안에서 toString 호출함 
         System.out.println(dog1);
         System.out.println(dog2);
 
