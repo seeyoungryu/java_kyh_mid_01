@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1100e9d0-bcdb-4255-b895-81d3a0f6e02a" name="Changes" comment="update pack.toString">
+    <list default="true" id="1100e9d0-bcdb-4255-b895-81d3a0f6e02a" name="Changes" comment="update pack.equals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/equals/EqualsMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/object/equals/EqualsMainV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/equals/EqualsMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/object/equals/EqualsMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/object/equals/UserV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/object/equals/UserV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/immutable/address/PrimitiveMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/immutable/address/PrimitiveMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/immutable/address/RefMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain1_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1718948187301" duration="4320000" />
       <workItem from="1720793926203" duration="653000" />
       <workItem from="1720852214002" duration="1018000" />
-      <workItem from="1720854637375" duration="3968000" />
+      <workItem from="1720854637375" duration="5852000" />
     </task>
     <task id="LOCAL-00001" summary="delete src">
       <created>1718948705849</created>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720879677050</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update pack.equals">
+      <created>1720907550342</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720907550342</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +176,7 @@
     <MESSAGE value="update pack.toSring" />
     <MESSAGE value="workspace.xml 제외" />
     <MESSAGE value="update pack.toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pack.toString" />
+    <MESSAGE value="update pack.equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pack.equals" />
   </component>
 </project>
