@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+#workspace.xml 파일 커밋 제외
+.idea/workspace.xml
