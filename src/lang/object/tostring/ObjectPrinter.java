@@ -2,8 +2,11 @@ package lang.object.tostring;
 
 public class ObjectPrinter {
     public static void print(Object obj) {
-        //*다형적 참조의 특성*
+        //1. 다형적 참조의 특성*
         //  매개변수로 Object 타입 obj 객체를 받는 메서드이므로 car, dog 등 모든 객체 다 받을 수 있음
+        //2. 메서드 오버라이딩*
+        //  Object 는 모든 클래스의 부모임 -> Dog, Car 등의 구체적인 클래스는 Object 가 가지고 있는 메서드 (toString 등)를 오버라이딩 할 수 있음
+        //  -> 추상적인 타입에 의존하면서 런타임에 각 인스턴스의 toStirng() 을 호출할 수 있음
         String string = "객체 정보 출력: " + obj.toString();
         System.out.println(string);
     }
