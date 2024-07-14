@@ -12,7 +12,7 @@ public class ImmutableMyDate {
         this.day = day;
     }
 
-    public ImmutableMyDate withYear(int newYear) {
+    public ImmutableMyDate withYear(int newYear) {        //newYear로 받기 (변경 위함)
         return new ImmutableMyDate(newYear, month, day);
     }
 
