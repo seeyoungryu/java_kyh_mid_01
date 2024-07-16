@@ -14,6 +14,6 @@ public class StringEqualsMain2 {
 
     private static boolean isSame(String x, String y) {
         //return x == y;
-        return x.equals(y);
+        return x.equals(y);    //문자열 비교 * 항상 equals 쓰기
     }
 }
