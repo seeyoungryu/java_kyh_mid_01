@@ -9,3 +9,4 @@ public class StringImmutable2 {
         System.out.println("str2 = " + str2);
     }
 }
+
