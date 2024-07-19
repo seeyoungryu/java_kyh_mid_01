@@ -1,7 +1,5 @@
 package lang.string.builder;
 
-//commitTest
-
 
 public class StringBuilderMain1_1 {
 
