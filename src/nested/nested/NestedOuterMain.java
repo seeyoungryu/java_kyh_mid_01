@@ -7,6 +7,9 @@ public class NestedOuterMain {
         NestedOuter.Nested nested = new NestedOuter.Nested();
         nested.print();
 
-        System.out.println("nestedClass = " + nested.getClass());
+        System.out.println("nestedClass = " + nested.getClass());   //클래스 정보
+
+
+
     }
 }
