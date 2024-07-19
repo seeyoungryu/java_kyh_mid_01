@@ -13,7 +13,7 @@ public class ClassGrade {
         this.discountPercent = discountPercent;
     }
 
-    public int getDiscountPercent() {
+    public int getDiscountPercent() {   //조회용
         return discountPercent;
     }
 }
