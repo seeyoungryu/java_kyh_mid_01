@@ -5,7 +5,7 @@ public enum Grade {
 
     private final int discountPercent;
 
-    Grade(int discountPercent) {
+    Grade(int discountPercent) {   //생성자에 접근제어자 설정 불가, 기본: private
         this.discountPercent = discountPercent;
     }
 
