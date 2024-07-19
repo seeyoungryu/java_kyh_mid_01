@@ -5,6 +5,8 @@ public class ClassGrade {
     public static final ClassGrade GOLD = new ClassGrade(20); //x002
     public static final ClassGrade DIAMOND = new ClassGrade(30); //x003
 
+
+
     private final int discountPercent;
 
     private ClassGrade(int discountPercent) {
