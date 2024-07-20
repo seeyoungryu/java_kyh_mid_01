@@ -18,3 +18,7 @@ public class DiscountService {
         return price * discountPercent / 100;
     }
 }
+
+
+
+//Github 연동 테스트
