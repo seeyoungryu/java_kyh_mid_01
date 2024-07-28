@@ -9,7 +9,7 @@ public class Service {
     public void callCatch() {
         try {
             client.call();
-        } catch (MyCheckedException e) {
+        } catch (Exception e) {
             //예외 처리 로직
             System.out.println("예외 처리, message=" + e.getMessage());
         }
