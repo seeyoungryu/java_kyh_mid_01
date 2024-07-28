@@ -3,7 +3,7 @@ package exception.ex1;
 public class NetworkClientV1 {
 
     private final String address;
-    public boolean connectError;
+    public boolean connectError;        //boolean 필드의 기본값은 false 이다
     public boolean sendError;
 
     public NetworkClientV1(String address) {
@@ -11,7 +11,7 @@ public class NetworkClientV1 {
     }
 
     public String connect() {
-        if (connectError) {
+        if (connectError) {                               //connectError 가 true 일때의 조건 if
             System.out.println(address + " 서버 연결 실패");
             return "connectError";
         }

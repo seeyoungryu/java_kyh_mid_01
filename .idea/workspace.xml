@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1100e9d0-bcdb-4255-b895-81d3a0f6e02a" name="Changes" comment="test 주석 제거">
+    <list default="true" id="1100e9d0-bcdb-4255-b895-81d3a0f6e02a" name="Changes" comment="update pack.exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/ex0/MainV0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex0/MainV0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/ex1/NetworkClientV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkClientV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +50,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/java/java_kyh_mid_01&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainV0.executor": "Run",
+    "Application.MainV1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowCommit.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/java/java_kyh_mid_01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocalDateMain">
+  <component name="RunManager" selected="Application.MainV1">
     <configuration name="LocalDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="time.LocalDateMain" />
       <module name="kyh_mid01" />
@@ -84,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEqualsMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.equals.StringEqualsMain2" />
+    <configuration name="MainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ex0.MainV0" />
       <module name="kyh_mid01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.equals.*" />
+          <option name="PATTERN" value="exception.ex0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ex1.MainV1" />
+      <module name="kyh_mid01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,10 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainV1" />
+        <item itemvalue="Application.MainV0" />
         <item itemvalue="Application.LocalDateMain" />
         <item itemvalue="Application.StringImmutable1" />
         <item itemvalue="Application.StringImmutable2" />
-        <item itemvalue="Application.StringEqualsMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +176,7 @@
       <workItem from="1721110037179" duration="1932000" />
       <workItem from="1721368474451" duration="4216000" />
       <workItem from="1721475469927" duration="4463000" />
+      <workItem from="1722164133578" duration="2478000" />
     </task>
     <task id="LOCAL-00001" summary="delete src">
       <created>1718948705849</created>
@@ -363,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721539876760</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update pack.exception">
+      <option name="closed" value="true" />
+      <created>1722164943982</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1722164943982</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +422,7 @@
     <MESSAGE value="update pack.enumeration" />
     <MESSAGE value="연결 test" />
     <MESSAGE value="test 주석 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 주석 제거" />
+    <MESSAGE value="update pack.exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pack.exception" />
   </component>
 </project>

@@ -8,13 +8,13 @@ public class MainV0 {
         NetworkServiceV0 networkService = new NetworkServiceV0();
 
         Scanner scanner = new Scanner(System.in);
-        while (true) {
+        while (true) {                              //무한루프
             System.out.print("전송할 문자: ");
             String input = scanner.nextLine();
             if (input.equals("exit")) {
                 break;
             }
-            networkService.sendMessage(input);
+            networkService.sendMessage(input);   //input
             System.out.println();
         }
         System.out.println("프로그램을 정상 종료합니다.");
