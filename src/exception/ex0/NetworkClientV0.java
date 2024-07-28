@@ -2,7 +2,7 @@ package exception.ex0;
 
 public class NetworkClientV0 {
 
-    private final String address;
+    private final String address;      //접속할 외부 서버 주소
 
     public NetworkClientV0(String address) {
         this.address = address;
@@ -14,7 +14,7 @@ public class NetworkClientV0 {
         return "success";
     }
 
-    public String send(String data) {
+    public String send(String data) {  //연결할 외부 서버에 "data" 전송
         //전송 성공
         System.out.println(address + " 서버에 데이터 전송: " + data);
         return "success";
